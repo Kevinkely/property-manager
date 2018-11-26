@@ -68,7 +68,7 @@ WSGI_APPLICATION = 'ecommerce.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'property-manager',
+        'NAME': 'webapps',
         'USER': 'name',
         'PASSWORD': '',
         'HOST': 'localhost',
