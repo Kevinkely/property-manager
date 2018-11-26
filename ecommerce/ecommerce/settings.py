@@ -120,3 +120,5 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 CART_SESSION_ID = 'cart'
 import dj_database_url
+db_from_env = dj_database_url.config()
+DATABASES['default'].update(db_from_env)
